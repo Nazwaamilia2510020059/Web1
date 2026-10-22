@@ -1,0 +1,116 @@
+/* === WARNA DAN PENGATURAN DASAR === */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #5C4050;
+    background-color: #FFF8FB;
+}
+
+/* === HEADER DAN JUDUL === */
+#header {
+    background-color: #E8A1BF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+#header p {
+    margin-top: 0;
+}
+
+/* === NAVIGASI === */
+nav {
+    background-color: #BE185D;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #FCE7F3;
+}
+
+/* === KONTEN ARTIKEL === */
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+article > h2,
+section > h2 {
+    color: #BE185D;
+    font-size: 24px;
+    border-bottom: 2px solid #E8A1BF;
+    padding-bottom: 8px;
+}
+
+article p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+article p:nth-child(even) {
+    background-color: #FFF1F7;
+}
+
+.pembuka {
+    background-color: #FCE7F3;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.tanggal {
+    color: #9D6B83;
+    font-size: 14px;
+}
+
+blockquote {
+    background-color: #FCE7F3;
+    border-left: 4px solid #BE185D;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* === DAFTAR DAN TAUTAN === */
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #BE185D;
+}
+
+article a:hover {
+    color: #E8A1BF;
+}
+
+/* === FOOTER === */
+footer {
+    background-color: #BE185D;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
