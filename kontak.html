@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak | Amilia's Bakehouse</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="index.html">Amilia's <span>Bakehouse</span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle">
+      <label class="hamburger" for="nav-toggle" aria-label="Buka menu"><span></span><span></span><span></span></label>
+      <ul class="nav-menu">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="index.html#produk">Produk</a></li>
+        <li><a class="active" href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Get in touch</p>
+          <h1>Halaman Kontak</h1>
+          <p>Silakan isi formulir berikut untuk pertanyaan atau pemesanan Amilia's Bakehouse.</p>
+        </div>
+
+        <div class="contact-layout">
+          <section class="contact-form-card" aria-labelledby="form-title">
+            <h2 id="form-title">Form Kontak</h2>
+            <form action="kontak.html" method="get">
+              <fieldset>
+                <legend>Data Pengunjung</legend>
+                <div class="form-group">
+                  <label for="nama">Nama <span aria-hidden="true">*</span></label>
+                  <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="subjek">Subjek</label>
+                  <select id="subjek" name="subjek">
+                    <option value="">Pilih subjek</option>
+                    <option value="pemesanan">Pemesanan produk</option>
+                    <option value="informasi">Informasi produk</option>
+                    <option value="kerja-sama">Kerja sama</option>
+                    <option value="lainnya">Lainnya</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="pesan">Pesan</label>
+                  <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan kamu..."></textarea>
+                </div>
+                <div class="form-actions">
+                  <button class="button button-primary" type="submit">Kirim</button>
+                  <button class="button button-outline" type="reset">Reset</button>
+                </div>
+              </fieldset>
+            </form>
+            <p class="form-note">* Wajib diisi. Form ini merupakan contoh formulir website statis.</p>
+          </section>
+
+          <section class="service-card" aria-labelledby="service-title">
+            <h2 id="service-title">Tabel Daftar Layanan</h2>
+            <div class="table-wrap">
+              <table class="service-table">
+                <thead>
+                  <tr><th scope="col">Layanan</th><th scope="col">Harga</th><th scope="col">Durasi</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Pemesanan cookies</td><td>Mulai Rp5.000</td><td>1–3 hari</td></tr>
+                  <tr><td>Cookies custom</td><td>Menyesuaikan</td><td>2–4 hari</td></tr>
+                  <tr><td>Paket hampers</td><td>Menyesuaikan</td><td>2–4 hari</td></tr>
+                  <tr><td>Informasi produk</td><td>Gratis</td><td>Melalui chat</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="table-note">Harga dan durasi pada tabel merupakan contoh informasi layanan.</p>
+          </section>
+        </div>
+
+        <div class="contact-card contact-details">
+          <h2>Kontak Amilia's Bakehouse</h2>
+          <p>WhatsApp: <strong>089691461215</strong></p>
+          <p>Instagram: <strong>@amiliasbakehouse</strong></p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="https://wa.me/6289691461215" target="_blank" rel="noopener">Chat WhatsApp</a>
+            <a class="button button-outline" href="https://www.instagram.com/amiliasbakehouse/" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bagian Lokasi -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Lokasi Kami</h2>
+        <p>Toko Alat Pancing Udin Nurdin</p>
+        <div class="map-wrapper">
+            <iframe
+                src="https://maps.google.com/maps?q=Toko%20Alat%20Pancing%20Udin%20Nurdin&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                title="Lokasi Toko Alat Pancing Udin Nurdin"
+                width="100%"
+                height="350"
+                style="border:0;"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p>
+            <a href="https://maps.app.goo.gl/Tv3fK4YjbfLGU4bM9?g_st=ic"
+               target="_blank"
+               rel="noopener">
+                Buka lokasi di Google Maps
+            </a>
+        </p>
+    </div>
+</section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div><a class="footer-brand" href="index.html">Amilia's Bakehouse</a><p>Homemade cookies with love ♡</p></div>
+      <div class="student-info"><p>Nazwa Amilia</p><p>NPM 2510020059</p><p>3A SI NONREG BJB</p></div>
+      <p class="copyright">© 2026 Amilia's Bakehouse</p>
+    </div>
+  </footer>
+</body>
+</html>
